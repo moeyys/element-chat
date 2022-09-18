@@ -2,17 +2,17 @@
     "default_server_config": {
         "m.homeserver": {
             "base_url": "https://matrix-client.moeyy.xyz",
-            "server_name": "mozilla.org"
+            "server_name": "matrix.org"
         },
         "m.identity_server": {
             "base_url": "https://vector.im"
         }
     },
-    "disable_custom_urls": false,
+    "disable_custom_urls": true,
     "disable_guests": false,
     "disable_login_language_selector": false,
-    "disable_3pid_login": false,
-    "brand": "Element",
+    "disable_3pid_login": true,
+    "brand": "Moeyy Element",
     "integrations_ui_url": "https://scalar.vector.im/",
     "integrations_rest_url": "https://scalar.vector.im/api",
     "integrations_widgets_urls": [
@@ -35,13 +35,13 @@
         ]
     },
     "enable_presence_by_hs_url": {
-        "https://matrix-client.moeyy.xyz": false
+		"https://matrix-client.moeyy.xyz": false
     },
     "setting_defaults": {
         "breadcrumbs": true
     },
     "jitsi": {
-        "preferred_domain": "meet.element.io"
+        "preferred_domain": "chat.moeyy.xyz"
     },
     "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx"
 }
