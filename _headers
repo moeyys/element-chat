@@ -1,5 +1,5 @@
-/*
+https://chat.moeyy.xyz/*
 	X-Frame-Options: SAMEORIGIN
 	X-Content-Type-Options: nosniff
-	X-XSS-Protection: "1; mode=block"
-	Content-Security-Policy: "frame-ancestors 'none'"
+	X-XSS-Protection: 1; mode=block
+	Content-Security-Policy: frame-ancestors 'none'
