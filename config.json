@@ -1,7 +1,7 @@
 {
     "default_server_config": {
         "m.homeserver": {
-            "base_url": "https://matrix-client-moeyy.b-cdn.net",
+            "base_url": "https://matrix-client.moeyy.xyz",
             "server_name": "mozilla.org"
         },
         "m.identity_server": {
@@ -35,8 +35,7 @@
         ]
     },
     "enable_presence_by_hs_url": {
-        "https://matrix.org": false,
-        "https://matrix-client-moeyy.b-cdn.net": false
+        "https://matrix-client.moeyy.xyz": false
     },
     "setting_defaults": {
         "breadcrumbs": true
